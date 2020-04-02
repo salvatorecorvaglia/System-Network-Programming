@@ -1,0 +1,21 @@
+Allestire un server TCP in grado di inviare una delle righe (numerate)
+di un file di testo a un qualsiasi client, nel momento in cui riceve dal
+client una richiesta col numero della riga desiderata. Dopo l'invio
+della riga, il server deve chiudere la connessione. Il processo client
+che ha ricevuto la riga, deve scriverla in una/un pipe/buffer. Allo
+stesso tempo, un altro processo (figlio/padre/fratello) deve essere
+pronto a leggere la riga dalla pipe/buffer non appena sia disponibile, a
+cancellarla dalla/dal pipe/buffer e a rilanciarla in modalità multicast.
+
+
+
+
+
+
+
+
+
+
+
+
+

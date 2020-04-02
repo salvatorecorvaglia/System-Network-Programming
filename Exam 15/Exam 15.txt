@@ -1,0 +1,9 @@
+Realizzare un client TCP che apra una connessione alla porta SMTP di un qualunque server
+pubblico che la accetti e misuri il tempo tra l'apertura della connessione e il
+ricevimento della risposta dal server. Il client deve fare ciò periodicamente,  chiudendo
+ogni volta la connessione con il comando SMTP QUIT e registrando in file di log tutte le
+misure fatte. Il server da contattare e l'intervallo tra le misure devono essere passati
+come argomento al processo. Allo stesso tempo, una thread del client deve essere
+predisposta in modo da ricevere tutti i segnali rivolti al processo evitando, tutte le
+volte che ciò è possibile, che questi causino interruzioni del processo e registrare il
+nome del segnale e l'istante dell'arrivo in un file di log.

@@ -1,0 +1,6 @@
+Creare tre processi che si scambiano ciclicamente tra loro, il più velocemente
+possibile, un dato (una sequenza sempre uguale di bytes, ovvero un "token") come
+se fosse una palla, utilizzando delle unnamed pipe come meccanismo di IPC. 
+Accertarsi, con qualunque metodo, che in ogni istante ci sia al massimo un token  
+in circolazione nel sistema costituito dai tre processi. 
+Stimare la velocità di rotazione della palla.

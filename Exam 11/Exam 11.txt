@@ -1,0 +1,6 @@
+Tre processi si scambiano ciclicamente tra loro, il più velocemente possibile,
+un datagramma come se fosse una palla. Misurare e confrontare la velocità di
+rotazione della palla nel caso di processi ospitati dalla stessa macchina e nel
+caso di processi ospitati in due macchine differenti. Accertarsi, con qualunque
+metodo, che in ogni istante ci sia al massimo un datagramma in circolazione nel
+sistema costituito dai tre processi.

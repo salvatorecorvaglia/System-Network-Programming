@@ -1,0 +1,12 @@
+La cartella contiene 3 file: TCPServer, TCPClient, TCPClient2 e TCPClient3.
+Il primo file come si evince dal nome apre un server TCP. Come richiesto questo server
+apre tramite tre thread distinte, tre connessioni tcp su 3 porte diverse (rispettivamente  
+sulle porte  2000, 3000 e 4000) ed attende la connessione da parte dei client. All'interno del server
+esiste un array globale che andrà ad accogliere i numeri int ricevuti dai vari client. Ogni thread
+andrà a scrivere nell'array. Per evitare che una thread cancelli ciò che ha scritto un'altra 
+thread, viene utilizzato un mutex, che attraverso l'utilizzo di una variabile globale, permette
+alle thread di inserire gli int in maniera ordinata all'interno dell'array.
+I 3 client invece si differenziano per il numero di porta che utilizzano per connettersi al server.
+Inoltre per poter distinguere quale thread sia ad inviare i numeri, vengono inviati numeri interi in range diversi tra loro.
+Una volta che tutte e 3 le connessioni sono state chiuse il server stampa tutti
+gli elementi ricevuti dai client.

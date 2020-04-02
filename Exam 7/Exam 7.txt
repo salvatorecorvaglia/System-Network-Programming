@@ -1,0 +1,17 @@
+In un sistema client-server, i client possono assumere una qualunque posizione in 
+una matrice 100x100 e permettere ai loro utenti di modificarla tramite i tasti "u" (alto), 
+"n" (basso), "h" (sinistra), "j" (destra).
+Il server riceve in tempo reale informazioni sulla posizione di tutti i client e 
+restituisce in tempo reale a ciascun client aggiornamenti sulla posizione di tutti 
+gli altri.
+Il server gestisce ciascun client con una thread ad esso dedicata.
+I client sono in grado di presentare graficamente ai loro utenti l'intera mappa.
+
+
+
+
+
+
+
+
+

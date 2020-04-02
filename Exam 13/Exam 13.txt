@@ -1,0 +1,4 @@
+In un file è memorizzato un array di lunghezza variabile di strutture di dimensione fissa.
+Più processi che eseguono lo stesso programma possono accedere al file, per leggere,
+inserire o modificare strutture. Scrivere tale programma utilizzando semafori POSIX per
+impedire il verificarsi di race conditions nell'accesso ai dati del file.

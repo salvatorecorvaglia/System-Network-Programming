@@ -1,0 +1,16 @@
+Si permetta a due processi di gestire, congiuntamente in un'area di memoria condivisa,
+la stessa lista concatenata (linked list) di elementi descritti da una struttura dati,   
+(con le funzioni pop, insert, count). Per la condivisione della memoria e per la gestione
+della concorrenza, si usi la POSIX IPC. Si fornisca a entrambi i processi un'interfaccia
+utente testuale per ricevere dall'utente i comandi.
+
+
+
+
+
+
+
+
+
+
+

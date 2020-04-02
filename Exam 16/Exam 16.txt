@@ -1,0 +1,5 @@
+Un server gestisce tre porte TCP con tre thread e un'area di memoria strutturata come un vettore di interi. 
+Dei client accedono a una qualunque delle tre porte del server inviando ad esso un intero che la thread 
+interessata salva nel primo elemento libero del vettore. Gestire la concorrenza delle tre thread per 
+evitare che la scrittura di un elemento vada a cancellare quella di un altro.
+Nota: usare hplinux2.unisalento.it per implementare il server

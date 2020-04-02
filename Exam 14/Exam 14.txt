@@ -1,0 +1,10 @@
+Quattro thread di un processo devono realizzare una catena di montaggio che svolga le
+seguenti funzioni: la thread 1 deve generare dei numeri interi positivi casuali e
+posizionarli in una FIFO di dimensione massima fornita come parametro dalla linea di
+comando; la thread 2 deve scoprire, leggendoli dall'uscita della FIFO, se tali interi sono
+primi; la thread 3 deve spostarli in un'altra FIFO se sono primi e rimuoverli se non lo
+sono; la thread 4 deve dare allo standard output i fattori di ciascun numero non primo. Al
+momento in cui il programma viene interrotto con ^C, deve stampare la lista dei numeri
+primi trovati fino a quel momento. Le quattro thread devono operare  e sincronizzandosi in
+modo da non creare interferenze nelle aree di memoria alle quali accedono e realizzando il
+massimo livello di parallelismo possibile.

@@ -1,0 +1,12 @@
+Gestire attraverso un mutex condiviso la concorrenza nell'accesso di un
+processo parent e di uno child ad una variabile collocata in una memoria che i
+due processi condividono con un metodo funzionante solo tra due processi parent
+e child. Verificare se è possibile effettuare la stessa gestione tra due
+processi non imparentati che condividano un'area di memoria.
+
+
+
+
+
+
+

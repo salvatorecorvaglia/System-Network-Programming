@@ -1,0 +1,13 @@
+Creare un daemon che apra 10 listening sockets TCP e una cui thread utilizzi l'I/O multiplexing per gestire i dati in arrivo ai socket. Testare con un client il funzionamento del server.
+
+
+
+
+
+
+
+
+
+
+
+

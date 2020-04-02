@@ -1,0 +1,13 @@
+Scrivere dei programmi che permettano di stimare sperimentalmente la differenza 
+di efficienza (in tempi di esecuzione e memoria occupata) tra il caso in cui
+le richieste rivolte da client a un server siano soddisfatte attraverso
+processi child e quello in cui siano soddisfatte attraverso delle
+threads.
+
+
+
+
+
+
+
+

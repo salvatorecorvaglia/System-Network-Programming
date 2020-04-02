@@ -1,0 +1,9 @@
+Un server UDP funziona simultaneamente su tre porte grazie a tre thread dedicate.  
+Le thread producono oggetti e li rendono disponibili alla main thread ogni qualvolta
+ricevono un input da un client di rete. 
+La main thread li consuma utilizzando una condition variable per evitare che la 
+gestione della concorrenza costringa il processore ad un lavoro inutile.
+
+
+
+
